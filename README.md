@@ -24,13 +24,16 @@
 ```
 
 ### develop tips
-* npx hardhat compile
-* npx hardhat deploy 
-* npx hardhat test
-* OWNER_KEY={{account private key}} INFURA_ID={{infuraid}} npx hardhat deploy --network goerli (执行前删除deployment/goerli/.migrations.json)
-* FORCE=true OWNER_KEY={{account private key}} INFURA_ID={{infuraid}} npx hardhat deploy --network goerli （强制都重新deploy）
-* 如果只重新部署某个id的js，则从.migrations.json里去掉对应的id即可
-* 如果只重新部署某个合约，则从{{network}}_result.json里把对应address置空即可
+```sh
+npx hardhat compile
+npx hardhat deploy 
+npx hardhat test
+OWNER_KEY={{account private key}} INFURA_ID=c03713652e3c4ef6a3c09ea7dbf58711 npx hardhat deploy --network goerli (INFURA_ID可以替换成自己的infuraid，执行前删除deployment/goerli/.migrations.json)
+FORCE=true OWNER_KEY={{account private key}} INFURA_ID=c03713652e3c4ef6a3c09ea7dbf58711 npx hardhat deploy --network goerli （强制都重新deploy）
+```
+如果只重新部署某个id的js，则从.migrations.json里去掉对应的id即可
+
+如果只重新部署某个合约，则从{{network}}_result.json里把对应address置空即可
 
 
 下面是执行本地网络部署的结果 `npx hardhat deploy`
@@ -90,9 +93,10 @@ ControllerAdded= true
 ```
 本地deploy没有报错，就可以尝试部署其他网络，见 hardhat.config.js的network配置
 
-### 部署测试网goerli后，执行注册脚本，就可以去opensea测试网查看了
+### 部署测试网goerli后，执行注册脚本 ens.js
 
+```sh
 OWNKEY={{account private key}} INFURA=https://eth-goerli.alchemyapi.io/v2/GlaeWuylnNM3uuOo-SAwJxuwTdqHaY5l  node ens.js
-
-比如我部署的：https://testnets.opensea.io/collection/buildlerdao-name-service
+```
+就可以去opensea测试网查看了,比如我部署的：https://testnets.opensea.io/collection/buildlerdao-name-service
 
