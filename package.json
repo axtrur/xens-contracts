@@ -1,0 +1,24 @@
+{
+  "name": "wens-contracts",
+  "devDependencies": {
+    "@ethersproject/keccak256": "^5.7.0",
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.3",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@nomiclabs/hardhat-ethers": "^2.1.1",
+    "@nomiclabs/hardhat-truffle5": "^2.0.0",
+    "chai": "^4.3.6",
+    "ethers": "^5.7.1",
+    "hardhat": "^2.11.2",
+    "hardhat-abi-exporter": "^2.10.0",
+    "hardhat-deploy": "^0.8.11",
+    "hardhat-deploy-ethers": "^0.3.0-beta.10",
+    "js-sha3": "^0.8.0",
+    "merkletreejs": "^0.2.32"
+  },
+  "dependencies": {
+    "@ensdomains/buffer": "^0.0.13",
+    "@ensdomains/solsha1": "0.0.3",
+    "@openzeppelin/contracts": "^4.7.3",
+    "@openzeppelin/contracts-upgradeable": "^4.8.0"
+  }
+}

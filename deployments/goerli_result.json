@@ -1,0 +1,77 @@
+{
+  "contracts/registry/ENSRegistry.sol": {
+    "contentHash": "d4ffeb8054fc54ba3b19b8333aa80ba2",
+    "address": "0x3BfE135231099832B1379Eac281aB44d33914eb6",
+    "args": []
+  },
+  "contracts/resolvers/DefaultReverseResolver.sol": {
+    "contentHash": "c06efb930624c7733575b2ae5a02c2f9",
+    "address": "0x8660ce5bAD8c83fe4edd779560BA2DA5C6BDA61a",
+    "args": [
+      "0x3BfE135231099832B1379Eac281aB44d33914eb6"
+    ]
+  },
+  "contracts/registry/ReverseRegistrar.sol": {
+    "contentHash": "8cacfc2e7a877d06642e503330245495",
+    "address": "0x82Dc2F0317F2908f2f2a6055A68C5a17E437B53e",
+    "args": [
+      "0x3BfE135231099832B1379Eac281aB44d33914eb6",
+      "0x8660ce5bAD8c83fe4edd779560BA2DA5C6BDA61a"
+    ]
+  },
+  "contracts/resolvers/PublicResolver.sol": {
+    "contentHash": "5e662cca2df3f4a1c8d9aeebb2a0d7f5",
+    "address": "0xDEA85AE562c6F439d2f848d7a7b1F848919C4631",
+    "args": [
+      "0x3BfE135231099832B1379Eac281aB44d33914eb6"
+    ]
+  },
+  "contracts/ethregistrar/BaseRegistrarImplementation.sol": {
+    "contentHash": "107763b1a025d29eb551cb83023ce2d4",
+    "address": "0xDF80687A8B47b1f745C5c0b60EaC2cbd9C1A3e40",
+    "args": [
+      "buildlerdao name service",
+      "BUILDLERDAO",
+      "0x3BfE135231099832B1379Eac281aB44d33914eb6",
+      "0xf4f740d56f576b63f57a508b18a60c24ab864b4afd50efaaeecca234babce5f5",
+      "buidlerdao"
+    ]
+  },
+  "contracts/ethregistrar/TokenURIBuilder.sol": {
+    "contentHash": "0f184d78753e016163471cc94ffb772c",
+    "address": "0xcA0b6cc11ACFaD34CfAe9510ab4C08FdF7aB3cCe",
+    "args": [
+      "0xDF80687A8B47b1f745C5c0b60EaC2cbd9C1A3e40"
+    ]
+  },
+  "contracts/ethregistrar/StableLogicControl.sol": {
+    "contentHash": "7c43cf735e5c3d2765d27d46f0f250fb",
+    "address": "0x9634e677F3Eb0503aF7204d3468127470d27941d",
+    "args": [
+      [
+        25367833587,
+        25367833587,
+        25367833587,
+        25367833587,
+        15854895992
+      ]
+    ]
+  },
+  "contracts/root/Root.sol": {
+    "contentHash": "301b84a8e1b79315c53e3d6e7e0d00be",
+    "address": "0xa794352b05E30cf412e3679cBf2472450A509a6e",
+    "args": [
+      "0x3BfE135231099832B1379Eac281aB44d33914eb6"
+    ]
+  },
+  "contracts/ethregistrar/ETHRegistrarController.sol": {
+    "contentHash": "7255355d680f5b29a1f45fb39d4b22fb",
+    "address": "0x8104C3d8CFF6db8e933e942CE98Aec43F87791e3",
+    "args": [
+      "0xDF80687A8B47b1f745C5c0b60EaC2cbd9C1A3e40",
+      100,
+      60,
+      86400
+    ]
+  }
+}
